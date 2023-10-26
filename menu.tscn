@@ -1,0 +1,73 @@
+[gd_scene load_steps=4 format=3 uid="uid://b7myiovue42w"]
+
+[ext_resource type="Script" path="res://menu.gd" id="1_q2eq4"]
+[ext_resource type="Texture2D" uid="uid://bibsoi860av2u" path="res://asset/Main menu/Red & Blue Simple Game Mobile Tournament Facebook Post.png" id="2_egilc"]
+
+[sub_resource type="SystemFont" id="SystemFont_l3eqo"]
+font_names = PackedStringArray("Impact")
+
+[node name="Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_q2eq4")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_egilc")
+expand_mode = 5
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 2
+offset_left = 12.0
+offset_top = 132.0
+offset_right = 1140.0
+offset_bottom = 209.0
+theme_override_colors/font_color = Color(0.156863, 0.211765, 0.462745, 1)
+theme_override_colors/font_shadow_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 0
+theme_override_constants/shadow_offset_y = 0
+theme_override_constants/outline_size = 0
+theme_override_constants/shadow_outline_size = 24
+theme_override_fonts/font = SubResource("SystemFont_l3eqo")
+theme_override_font_sizes/font_size = 60
+text = "MAIN MENU"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Option" type="Button" parent="."]
+layout_mode = 0
+offset_left = 456.0
+offset_top = 391.0
+offset_right = 691.0
+offset_bottom = 470.0
+flat = true
+
+[node name="Start" type="Button" parent="."]
+layout_mode = 0
+offset_left = 452.0
+offset_top = 283.0
+offset_right = 687.0
+offset_bottom = 362.0
+flat = true
+
+[node name="Quit" type="Button" parent="."]
+layout_mode = 0
+offset_left = 469.0
+offset_top = 497.0
+offset_right = 672.0
+offset_bottom = 576.0
+flat = true
+
+[connection signal="pressed" from="Option" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="Start" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]

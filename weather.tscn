@@ -1,0 +1,99 @@
+[gd_scene load_steps=5 format=3 uid="uid://e36abgmkdsco"]
+
+[ext_resource type="Texture2D" uid="uid://vvesf6dgqtv3" path="res://asset/Map/Entorno Ciudad/fondoNoche.png" id="1_dhxtn"]
+[ext_resource type="Texture2D" uid="uid://dc2tduosdghll" path="res://asset/Map/Entorno Ciudad/fondoEdificios.png" id="2_aupng"]
+[ext_resource type="Texture2D" uid="uid://c2g88qhhcr8uy" path="res://asset/Map/Entorno Ciudad/lucesEdificios.png" id="3_ypmvo"]
+[ext_resource type="Texture2D" uid="uid://bd7cisgxjwix2" path="res://asset/Map/Entorno Ciudad/Nubes/nube1.png" id="4_cr8vt"]
+
+[node name="Weather" type="ParallaxBackground"]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(285, 324)
+scale = Vector2(1.24414, 1.11806)
+texture = ExtResource("1_dhxtn")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D2" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(1522, 325)
+scale = Vector2(1.24414, 1.11806)
+texture = ExtResource("1_dhxtn")
+metadata/_edit_lock_ = true
+
+[node name="Sprite2D3" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(2796, 328)
+scale = Vector2(1.24414, 1.11806)
+texture = ExtResource("1_dhxtn")
+metadata/_edit_lock_ = true
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="."]
+position = Vector2(0, -122)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(405, 521)
+scale = Vector2(1.4668, 1)
+texture = ExtResource("2_aupng")
+
+[node name="Sprite2D2" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1903, 528)
+scale = Vector2(1.4668, 1)
+texture = ExtResource("2_aupng")
+
+[node name="Sprite2D3" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(3399, 519)
+scale = Vector2(1.4668, 1)
+texture = ExtResource("2_aupng")
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="."]
+position = Vector2(162, 483)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(243, -172)
+scale = Vector2(1.51242, 1)
+texture = ExtResource("3_ypmvo")
+
+[node name="Sprite2D2" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(1765, -198)
+scale = Vector2(1.51242, 1)
+texture = ExtResource("3_ypmvo")
+
+[node name="Sprite2D3" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(3259, -165)
+scale = Vector2(1.51242, 1)
+texture = ExtResource("3_ypmvo")
+
+[node name="ParallaxLayer4" type="ParallaxLayer" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxLayer4"]
+position = Vector2(-26, 81)
+texture = ExtResource("4_cr8vt")
+
+[node name="Sprite2D2" type="Sprite2D" parent="ParallaxLayer4"]
+position = Vector2(526, 121)
+texture = ExtResource("4_cr8vt")
+
+[node name="Sprite2D3" type="Sprite2D" parent="ParallaxLayer4"]
+position = Vector2(1197, 59)
+texture = ExtResource("4_cr8vt")
+
+[node name="Sprite2D4" type="Sprite2D" parent="ParallaxLayer4"]
+position = Vector2(807, 80)
+texture = ExtResource("4_cr8vt")
+
+[node name="Sprite2D5" type="Sprite2D" parent="ParallaxLayer4"]
+position = Vector2(1416, 75)
+texture = ExtResource("4_cr8vt")
+
+[node name="Sprite2D6" type="Sprite2D" parent="ParallaxLayer4"]
+position = Vector2(1880, 113)
+texture = ExtResource("4_cr8vt")
+
+[node name="Sprite2D7" type="Sprite2D" parent="ParallaxLayer4"]
+position = Vector2(2049, 56)
+texture = ExtResource("4_cr8vt")
+
+[node name="Sprite2D8" type="Sprite2D" parent="ParallaxLayer4"]
+position = Vector2(2049, 56)
+texture = ExtResource("4_cr8vt")

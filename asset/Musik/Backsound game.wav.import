@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://da26k2sq2h686"
+path="res://.godot/imported/Backsound game.wav-f317695b391b1abf7c8b6cea2a23f5ca.sample"
+
+[deps]
+
+source_file="res://asset/Musik/Backsound game.wav"
+dest_files=["res://.godot/imported/Backsound game.wav-f317695b391b1abf7c8b6cea2a23f5ca.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://s3pw2iqcn4ib"]
+
+[ext_resource type="AudioStream" uid="uid://da26k2sq2h686" path="res://asset/Musik/Backsound game.wav" id="1_e51q7"]
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_e51q7")
+autoplay = true
